@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".IntroActivity">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="220dp"
+            app:srcCompat="@drawable/burger" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/intro_page_2"
+            android:textAlignment="center"
+            android:textColor="@color/light_green"
+            android:textSize="17sp" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/intro_Scrin_Btn"
+            style="@android:style/Widget.Button"
+            android:layout_width="157dp"
+            android:layout_height="57dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginTop="170dp"
+            android:layout_marginEnd="24dp"
+            android:background="@drawable/green_button_bg"
+            android:fontFamily="@font/ysung_reg"
+            android:text="Next"
+            android:textColor="@color/white"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ysung_reg"
+            android:text="Design by"
+            android:textStyle="italic"
+            android:textColor="@color/light_green"
+            android:layout_marginTop="5dp"
+            android:textSize="18sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ysung_reg"
+            android:text="Rishu Patel"
+            android:textColor="@color/light_green"
+            android:textSize="21sp"
+            android:textStyle="italic" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="@font/ysung_reg"
+            android:text=""
+            android:textColor="@color/light_green"
+            android:textSize="21sp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+
+    <!--    <ScrollView-->
+    <!--        android:layout_width="match_parent"-->
+    <!--        android:layout_height="match_parent">-->
+
+    <!--        <LinearLayout-->
+    <!--            android:layout_width="match_parent"-->
+    <!--            android:layout_height="wrap_content"-->
+    <!--            android:orientation="vertical">-->
+
+    <!--            <ImageView-->
+    <!--                android:id="@+id/imageView"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="485dp"-->
+    <!--                android:src="@drawable/intro" />-->
+
+    <!--            <TextView-->
+    <!--                android:id="@+id/textView"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginStart="32dp"-->
+    <!--                android:layout_marginTop="16dp"-->
+    <!--                android:layout_marginEnd="32dp"-->
+    <!--                android:text="@string/intro_title"-->
+    <!--                android:textAlignment="center"-->
+    <!--                android:textColor="@color/white"-->
+    <!--                android:textSize="31sp"-->
+    <!--                android:textStyle="bold" />-->
+
+    <!--            <TextView-->
+    <!--                android:layout_width="wrap_content"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_margin="16dp"-->
+    <!--                android:text="Welcome to our world of wholesome delights!-->
+    <!--                 Exprore nature's goodness with our vabrant\n-->
+    <!--selection of healthy and delicious furits."-->
+    <!--                android:textAlignment="center"-->
+    <!--                android:textColor="@color/white" />-->
+
+    <!--            <androidx.appcompat.widget.AppCompatButton-->
+    <!--                android:id="@+id/startBtn"-->
+    <!--                style="@android:style/Widget.Button"-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="55dp"-->
+    <!--                android:layout_marginStart="24dp"-->
+    <!--                android:layout_marginTop="24dp"-->
+    <!--                android:layout_marginEnd="24dp"-->
+    <!--                android:background="@drawable/yellow_bg"-->
+    <!--                android:text="Get Started"-->
+    <!--                android:textColor="@color/black"-->
+    <!--                android:textSize="21sp"-->
+    <!--                android:textStyle="bold" />-->
+
+    <!--            <TextView-->
+    <!--                android:layout_width="match_parent"-->
+    <!--                android:layout_height="wrap_content"-->
+    <!--                android:layout_marginTop="24dp"-->
+    <!--                android:text="@string/intro_logn"-->
+    <!--                android:textAlignment="center"-->
+    <!--                android:textColor="@color/white"-->
+    <!--                android:textSize="18sp" />-->
+
+    <!--        </LinearLayout>-->
+    <!--    </ScrollView>-->
+</androidx.constraintlayout.widget.ConstraintLayout>
